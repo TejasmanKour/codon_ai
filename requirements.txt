@@ -1,3 +1,6 @@
 matplotlib
 streamlit
-biopython
+Biopython
+scikit-learn
+numpy
+pandas
