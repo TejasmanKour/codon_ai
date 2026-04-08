@@ -325,9 +325,20 @@ elif menu == "📘 About":
     st.markdown("""<style>body {background-color: #fef9c3;}</style>""", unsafe_allow_html=True)
     st.title("📘 About")
     st.write("""
-The AI Codon Optimizer is a bioinformatics web application designed to enhance gene sequences for improved protein expression in target organisms. It processes DNA or protein sequences, optimizes codons using organism-specific patterns, and performs biological analysis such as GC content, CAI, and codon usage.
+The AI Codon Optimizer is an advanced bioinformatics web application developed to enhance gene sequences for improved protein expression across different host organisms. It combines classical codon optimization strategies with modern computational and AI-driven approaches to provide a comprehensive sequence engineering platform. The application accepts both DNA and protein sequences as input and intelligently processes them by identifying sequence type, converting protein sequences into optimized DNA, and applying organism-specific codon usage patterns. Users can choose between maximum expression optimization, which prioritizes highly preferred codons, and codon harmonization, which preserves translational kinetics for proper protein folding.
 
-It integrates artificial intelligence to predict gene expression and provides smart suggestions for improvement. This tool is useful in biotechnology, pharmaceutical research, and synthetic biology.
+Beyond optimization, the platform performs a wide range of analytical evaluations to assess sequence quality and expression potential. These include:
+
+. GC Content Analysis
+. Codon Adaptation Index (CAI) for expression efficiency
+. Codon Usage Profiling
+. Rare Codon Identification
+. Ribosome Translation Speed Profiling
+. mRNA Secondary Structure Prediction (ΔG analysis)
+
+To further enhance usability, the tool integrates a machine learning–based module to predict gene expression levels, providing users with an additional layer of insight. It also generates suggestions and warnings, helping users identify potential bottlenecks such as strong secondary structures, rare codon clusters, or suboptimal GC content. This platform supports custom codon tables, allowing flexibility for non-model organisms and specialized research needs. Additionally, users can export optimized sequences and generate comprehensive reports, making it suitable for documentation, collaboration, and downstream experimental workflows.
+
+Overall, the AI Codon Optimizer serves as an integrated solution for researchers, students, and professionals working in Biotechnology, Synthetic biology, Pharmaceutical research, Genetic engineering. By combining automation, visualization, and AI-driven insights, the tool simplifies complex sequence optimization tasks and enables more informed decision-making in gene design and expression studies.
 """)
 
 elif menu == "📞 Contact":
